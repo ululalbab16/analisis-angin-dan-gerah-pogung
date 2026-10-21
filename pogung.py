@@ -18,7 +18,7 @@ plt.plot(angin, [m*x + b for x in angin], '--', color='red', label='Garis Tren')
 plt.grid(True, alpha=0.3)
 plt.xlabel('Angin')
 plt.ylabel('Gerah')
-plt.title(f"data angin dan hujan pogung dengan Korelasi r={corr:.2f}")
+plt.title(f"data angin dan gerah pogung dengan Korelasi r={corr:.2f}")
 plt.legend()
 
 
